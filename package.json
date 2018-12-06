@@ -1,0 +1,16 @@
+{
+  "name": "@ch1c0t/pugify",
+  "version": "0.0.0",
+  "description": "A minimal Browserify transform for Pug.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "coffee --bare -c -o lib src"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.2"
+  },
+  "dependencies": {
+    "pug": "^2.0.3",
+    "through2": "^3.0.0"
+  }
+}
