@@ -1,0 +1,25 @@
+To install:
+
+[source, bash]
+----
+$ npm i @ch1c0t/pugify
+----
+
+A usage example for `some.pug`:
+[source, pug]
+----
+p Hello, #{name}!
+----
+
+[source, coffeescript]
+----
+template = require './some.pug'
+main = document.getElementById 'main'
+html = template name: 'Alice'
+main.innerHTML = html
+----
+
+[source, bash]
+----
+browserify -t @ch1c0t/pugify -t coffeeify --extension='.coffee' entry.coffee > output.js
+----
