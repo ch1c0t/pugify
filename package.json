@@ -1,6 +1,6 @@
 {
   "name": "@ch1c0t/pugify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A minimal Browserify transform for Pug.",
   "main": "lib/index.js",
   "scripts": {
